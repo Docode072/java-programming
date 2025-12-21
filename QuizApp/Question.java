@@ -1,4 +1,5 @@
 package QuizApp;
+
 public class Question {
     // Placeholder for Question properties and methods      
     private final String questionText;

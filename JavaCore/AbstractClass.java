@@ -1,5 +1,10 @@
 package JavaCore;
 
+
+abstract class Bike
+{
+    public abstract void ride();
+}
 abstract class Car{
     void start(){
         System.out.println("Car is starting");
