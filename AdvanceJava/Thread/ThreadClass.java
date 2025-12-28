@@ -1,4 +1,4 @@
-package AdvanceJava;
+package Thread;
 
 class MyThread extends Thread {
     @Override
@@ -81,5 +81,16 @@ public class ThreadClass {
  4. Threads in Java can run concurrently, allowing multiple tasks to be executed simultaneously, which can improve the performance of applications that require parallel processing or responsiveness.
  5. Java provides built-in support for thread synchronization and inter-thread communication through mechanisms like synchronized blocks/methods, wait(), notify(), and notifyAll() methods.
 */
+/*
+thread lifecycle:
+1. New: A thread is created but not yet started.
+2. Runnable: The thread is eligible to run but may not be running yet.
+3. Running: The thread is actively executing its run() method.
+4. Blocked/Waiting: The thread is temporarily paused, waiting for a resource or condition.
+5. Terminated: The thread has completed its execution or has been stopped.  
 
+you can get the current thread using Thread.currentThread() method.
+also can status of thread using isAlive() method.
+getstate() method to get the current state of a thread.
+*/
 
