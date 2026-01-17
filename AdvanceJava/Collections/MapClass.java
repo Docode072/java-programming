@@ -1,7 +1,6 @@
 package Collections;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class MapClass {
     public static void main(String[] args) {
@@ -20,8 +19,16 @@ public class MapClass {
             }
         }
         System.out.println("Character frequencies in the string \"" + input + "\": " + charFreq);
-        
 
+        Collection<String> values = new ArrayList<String>();
+        values.add("Apple");
+        values.add("Banana");
+        values.add("Orange");
+
+        for(String value : values){
+            System.out.println("Value: " + value + ", Hash code: " + value.hashCode());
+        }
+        
         
     }
 
